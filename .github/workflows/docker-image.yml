@@ -46,6 +46,7 @@ jobs:
       run: |
         docker push frezzydv/docker-graphql:$NEW_VERSION
         docker push frezzydv/docker-graphql:latest
-         
+
+
 #     - name: Build the Docker image
 #       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
